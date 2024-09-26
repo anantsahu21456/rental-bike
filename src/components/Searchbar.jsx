@@ -4,9 +4,9 @@ import '../css/Searchbar.css'; // Include the CSS for this component
 function Searchbar() {
   return (
     <div className="search-bar">
-      <input type="text" placeholder="Location" />
-      <input type="text" placeholder="Pickup date" />
-      <input type="text" placeholder="Return date" />
+      <input className='search-here' type="text" placeholder="Location" />
+      <input className='search-here' type="date" placeholder="Pickup date" />
+      <input className='search-here' type="date" placeholder="Return date" />
       <button className="search-btn">Search</button>
     </div>
   );

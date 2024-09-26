@@ -1,11 +1,30 @@
-/* BikeSection.css */
+/* Bikesection.css */
+
+.bike-section-container {
+    background-color: #000; /* Black background color */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add border radius */
+}
+
+.bike-section-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: white; /* White text color */
+    margin-bottom: 20px;
+    text-align: left; /* Align heading to the left */
+    padding-left: 10px; /* Add some padding for spacing from the left */
+}
+
 .bike-list {
     display: flex;
-    background-color: black;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-    background-color: #f4f4f4; /* Light grey background */
-    border-radius: 10px; /* Optional: To give the section rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: To add some shadow for a nice effect */
+    background-color: #000; /* Black background */
+    border-radius: 10px;
+}
+
+.bike-card {
+    margin: 10px;
+    color: white; /* Ensure text on bike cards is visible on black background */
 }

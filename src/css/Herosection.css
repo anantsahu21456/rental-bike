@@ -12,6 +12,7 @@
   
   .hero-content {
     max-width: 500px;
+    padding-left: 2%;
   }
   
   .hero-content h1 {
@@ -41,11 +42,13 @@
   }
   
   .hero-image {
-    background-image: url('https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTQD3M-W-MqCo4Extvp05O1QKrNkJCZuevOF8O1J9zOvpTWRa9zh_LbKxxztVf6ntL2M3RZEt3KE5tWrRXQKPRyyzDL06qanxn1Z0ltqKJUeEQKgZE2JmfPKQ'); /* Image of the bike */
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/22/22/14/wheel-3100158_1280.jpg'); /* Image of the bike */
     background-size: cover;
     background-position: center;
     width: 50%;
-    height: 100%;
+    height: 90%;
+    margin-bottom: 30px;
     border-radius: 100px;
+    padding-left: 30px;
   }
   
