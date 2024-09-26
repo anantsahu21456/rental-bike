@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Reantaldeals() {
+function Home() {
   return (
     <div>
-      
+     
     </div>
   )
 }
 
-export default Reantaldeals
+export default Home

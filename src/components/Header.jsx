@@ -1,12 +1,11 @@
 import React from 'react'
 
-function Signin() {
+function Header() {
   return (
     <div>
-         sign in form 
       
     </div>
   )
 }
 
-export default Signin
+export default Header

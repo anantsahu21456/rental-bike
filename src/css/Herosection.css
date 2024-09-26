@@ -1,0 +1,51 @@
+/* HeroSection.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Dark background */
+    height: 100vh;
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h1 span {
+    color: #007bff; /* Blue color for the word 'Easily' */
+    text-decoration: underline;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .rent-now-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero-image {
+    background-image: url('https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTQD3M-W-MqCo4Extvp05O1QKrNkJCZuevOF8O1J9zOvpTWRa9zh_LbKxxztVf6ntL2M3RZEt3KE5tWrRXQKPRyyzDL06qanxn1Z0ltqKJUeEQKgZE2JmfPKQ'); /* Image of the bike */
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 100px;
+  }
+  

@@ -1,0 +1,11 @@
+/* BikeSection.css */
+.bike-list {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 10px; /* Optional: To give the section rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: To add some shadow for a nice effect */
+}

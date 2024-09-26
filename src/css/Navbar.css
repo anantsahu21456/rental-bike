@@ -1,0 +1,82 @@
+/* Navbar.css */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+}
+.text {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between the links */
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: #575757;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Auth Links Styling */
+.auth-links {
+  display: flex;
+  gap: 10px; /* Space between Sign Up and Sign In */
+}
+
+.auth-btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: #007bff; /* Customize the button background */
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .auth-links {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
