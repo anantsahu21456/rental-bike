@@ -1,0 +1,217 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General body styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('https://cdn.pixabay.com/photo/2014/03/29/23/49/the-background-301145_1280.png') no-repeat center center;
+  background-size: cover;
+}
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  padding: 20px;
+  /* width: 400px; */
+}
+
+.signin-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  height: 80%;
+}
+
+.signin-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.signin-toggle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.signin-btn
+ {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 45%;
+  transition: background-color 0.3s ease;
+}
+.signup-btn {
+    background-color: black;
+    color: #ffffff9f;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 45%;
+    transition: background-color 0.3s ease;
+  }
+
+/* .signin-btn.active {
+  background-color: #555;
+} */
+
+/* .signup-btn {
+  background-color: #888;
+} */
+
+.signin-text {
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.signin-inputs {
+  margin-bottom: 20px;
+}
+
+.signin-input {
+  width: 90%; /* Ensure both inputs have the same width */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px dotted #ddd;
+  border-radius: 12px;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 90%; /* Ensure the password wrapper also has the same width */
+}
+
+/* Remove any conflicting styles that might cause size issues */
+.password-input {
+  width: 100%; /* Make sure password input takes full width of the wrapper */
+}
+
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.signin-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    width: auto;  
+  }
+  
+  .remember-label {
+    margin-left: 5px; 
+    white-space: nowrap; 
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  
+
+.forgot-password-btn {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.forgot-password-btn:hover {
+  color: #ff4a4a;
+}
+
+.submit-login-btn {
+  width: 40%;
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-login-btn:hover {
+  background-color: #555;
+}
+
+.signup-link-text {
+  color: #666;
+  font-size: 12px;
+}
+
+.signup-link-btn {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.signup-link-btn:hover {
+  color: #ff4a4a;
+}
+
+.social-login-text {
+  color: #666;
+  font-size: 12px;
+  /* margin-top: 10px; */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #333;
+}
